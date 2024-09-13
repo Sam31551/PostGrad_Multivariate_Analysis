@@ -18,11 +18,11 @@ Oral Temperature ***outliers are removed to ensure data normality*** for later a
 
 ***Hierarchical Clustering***
 
-Several Hierarchical clustering algorithms were tested on the facial data. 'Average' linking proved to be the most suitable approach. This approach suggests there are 3 distinct clusters in the facial data. 
+Several Hierarchical clustering algorithms were tested on the facial data. ***'Average' linking*** proved to be the most suitable approach. This approach suggests there are ***3 distinct clusters*** in the facial data. 
 
 ***K-Means Clustering***
 
-A k-means clustering algorithm was also applied with the 'elbow plot' indicating the optimum number of clusters as 4. A k-means algorithm with k=4 is run on the data that is reduced by Principal Component Analysis. When these clusters were plotted against PC1 and PC2 the clusters were very discriminatory. The k-means clustering algorithm was preferred in this instance to the Hierarchichal approach due to its enhanced cluster separations.
+A k-means clustering algorithm was also applied with the 'elbow plot' indicating the ***optimum number of clusters as 4***. A k-means algorithm with k=4 is run on the data that is reduced by Principal Component Analysis. When these clusters were plotted against PC1 and PC2 the clusters were very discriminatory. The k-means clustering algorithm was preferred in this instance to the Hierarchichal approach due to its enhanced cluster separations.
 
 **Discriminant Analysis**
 
