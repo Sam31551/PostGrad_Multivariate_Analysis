@@ -2,8 +2,8 @@
 
 **Objective**
 
-This analysis aims to investigate the relationship between **mean oral** and **mean facial temperatures**. 
-Apply **clustering algorithms, discriminant analysis**, and **regression techniques** to identify patterns and derive insights from the data.
+This analysis aims to explore the relationship between **mean oral** and **mean facial temperatures** focusing on identifying patterns, temperature ranges, and significant clusters in the data. 
+A combination of **clustering algorithms, discriminant analysis**, and **regression techniques** are used to identify patterns and derive insights from the data.
 
 **Data Overview**
 
