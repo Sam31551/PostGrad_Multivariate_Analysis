@@ -2,17 +2,17 @@
 
 **Objective**
 
-This analysis aims to explore the relationship between **mean oral** and **mean facial temperatures** focusing on identifying patterns, temperature ranges, and significant clusters in the data. 
-A combination of **clustering algorithms, discriminant analysis**, and **regression techniques** are used to identify patterns and derive insights from the data.
+This analysis aims to explore the relationship between ***mean oral*** and ***mean facial temperatures*** focusing on identifying patterns, temperature ranges, and significant clusters in the data. 
+A combination of ***clustering algorithms, discriminant analysis***, and ***regression techniques*** are used to identify patterns and derive insights from the data.
 
 **Data Overview**
 
-The data is loaded and a plot is generated between the two key metrics showing a **clear positive correlation** with facial temperature on average **2 degrees cooler** than the oral temperature.
+The data is loaded and a plot is generated between the two key metrics showing a ***clear positive correlation*** with facial temperature on average ***2 degrees cooler*** than the oral temperature.
 
 **Data Distribution & Outliers**
 
 Oral Temperature values are positively skewed, while facial temperature values follow a normal distribution. 
-Oral Temperature **outliers are removed to ensure data normality** for later analysis.
+Oral Temperature ***outliers are removed to ensure data normality*** for later analysis.
 
 **Clustering**
 
@@ -26,7 +26,7 @@ A k-means clustering algorithm was also applied with the 'elbow plot' indicating
 
 **Discriminant Analysis**
 
-Linear and Quadratic Discriminant Analysis models were fit to the data. The models performance are compared, with the best model (LDA) having its decision boundary plotted. The plot shows a **strong classification performance**.
+Linear and Quadratic Discriminant Analysis models were fit to the data. The models performance are compared, with the best model (LDA) having its decision boundary plotted. The plot shows a ***strong classification performance***.
 
 **Principal Component Analysis**
 
