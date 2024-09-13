@@ -2,13 +2,13 @@
 
 **Objective**
 
-To investigates the relationship between mean oral and facial temperatures. 
-To apply clustering algorithms, discriminant analysis, and regression techniques to uncover patterns in the data.
+To investigates the relationship between **mean oral** and **mean facial temperatures**. 
+To apply **clustering algorithms, discriminant analysis**, and **regression techniques** to identify patterns and draw insights from the data.
 
-**Data**
+**Data Overview**
 
 The data is loaded and the two key metrics are plotted showing a **clear positive correlation**. 
-The plot also indicates the fact that the facial temperature is on average 2 degrees cooler than the oral temperature.
+The facial temperature is found to be on average **2 degrees cooler** than the oral temperature.
 
 **Data Distribution/Outliers**
 
@@ -19,7 +19,7 @@ Oral Temperature **outliers are removed to ensure data normality** for later ana
 
 ***Hierarchical Clustering***
 
-A number of hierarchical clustering algorithms were run on the facial data with 'average' linking proving to be the most suitable approach. This approach suggests there are 3 distinct clusters in the facial data. 
+A number of Hierarchical clustering algorithms were run on the facial data with 'average' linking proving to be the most suitable approach. This approach suggests there are 3 distinct clusters in the facial data. 
 
 ***K-Means Clustering***
 
@@ -27,7 +27,7 @@ A k-means clustering algorithm is also run on the data. The optimum number of cl
 
 **Discriminat Analysis**
 
-Linear and Quadratic Discriminat Analysis models are fit on the data. Models performance are compared with the best model (LDA) having its decision boundary plotted. The plot shows a strong performance.
+Linear and Quadratic Discriminant Analysis models are fit on the data. Models performance are compared with the best model (LDA) having its decision boundary plotted. The plot shows a strong performance.
 
 **Principal Component Analysis**
 
