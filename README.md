@@ -23,8 +23,8 @@ A k-means clustering algorithm is also run on the data. The optimum number of cl
 **Discriminat Analysis**
 Linear and Quadratic Discriminat Analysis models are fit on the data. Models performance are compared with the best model (LDA) having its decision boundary plotted. The plot shows a strong performance.
 
-**Pricnipal Component Analysis**
-Principal Component Analysis is performed on the data, with the first **3 Principal Components capturing the majority of the cumulative data variance**. The principal component scores are displayed to show the depreciating nature of component variance. 
+**Principal Component Analysis**
+Principal Component Analysis is performed on the data, with the first ***3 Principal Components capturing the majority of the cumulative data variance***. The principal component scores are displayed to show the depreciating nature of component variance. 
 
 **Pricnipal Component Regression**
-Principal Component Regression is researched and described before an analysis is run. The model returns an **R-Squared value of 0.707** showing it **explains a significant amount of the variability** in the data. 
+Principal Component Regression is researched and described before an analysis is run. The model returns an ***R-Squared value of 0.707*** showing it ***explains a significant amount of the variability*** in the data. 
