@@ -33,6 +33,6 @@ Linear and Quadratic Discriminat Analysis models are fit on the data. Models per
 
 Principal Component Analysis is performed on the data, with the first ***3 Principal Components capturing the majority of the cumulative data variance***. The principal component scores are displayed to show the depreciating nature of component variance. 
 
-**Pricnipal Component Regression**
+**Principal Component Regression**
 
 Principal Component Regression is researched and described before an analysis is run. The model returns an ***R-Squared value of 0.707*** showing it ***explains a significant amount of the variability*** in the data. 
