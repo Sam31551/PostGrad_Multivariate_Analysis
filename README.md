@@ -2,36 +2,35 @@
 
 **Objective**
 
-To investigates the relationship between **mean oral** and **mean facial temperatures**. 
-To apply **clustering algorithms, discriminant analysis**, and **regression techniques** to identify patterns and draw insights from the data.
+This analysis aims to investigate the relationship between **mean oral** and **mean facial temperatures**. 
+Apply **clustering algorithms, discriminant analysis**, and **regression techniques** to identify patterns and derive insights from the data.
 
 **Data Overview**
 
-The data is loaded and the two key metrics are plotted showing a **clear positive correlation**. 
-The facial temperature is found to be on average **2 degrees cooler** than the oral temperature.
+The data is loaded and a plot is generated between the two key metrics showing a **clear positive correlation** with facial temperature on average **2 degrees cooler** than the oral temperature.
 
-**Data Distribution/Outliers**
+**Data Distribution & Outliers**
 
-Oral Temperature values are positively skewed, while facial temperature values are more normally distributed. 
+Oral Temperature values are positively skewed, while facial temperature values follow a normal distribution. 
 Oral Temperature **outliers are removed to ensure data normality** for later analysis.
 
 **Clustering**
 
 ***Hierarchical Clustering***
 
-A number of Hierarchical clustering algorithms were run on the facial data with 'average' linking proving to be the most suitable approach. This approach suggests there are 3 distinct clusters in the facial data. 
+Several Hierarchical clustering algorithms were tested on the facial data. 'Average' linking proved to be the most suitable approach. This approach suggests there are 3 distinct clusters in the facial data. 
 
 ***K-Means Clustering***
 
-A k-means clustering algorithm is also run on the data. The optimum number of clusters, 4, is found through the use of the 'elbow plot'. A k-means algorithm with k=4 is run on the data that is reduced by Principal Component Analysis. When these clusters were plotted against PC1 and PC2 the clusters were very discriminatory. The k-means clustering algorithm was preferred in this instance to the Hierarchichal approach due to its enhanced cluster separations.
+A k-means clustering algorithm was also applied with the 'elbow plot' indicating the optimum number of clusters as 4. A k-means algorithm with k=4 is run on the data that is reduced by Principal Component Analysis. When these clusters were plotted against PC1 and PC2 the clusters were very discriminatory. The k-means clustering algorithm was preferred in this instance to the Hierarchichal approach due to its enhanced cluster separations.
 
-**Discriminat Analysis**
+**Discriminant Analysis**
 
-Linear and Quadratic Discriminant Analysis models are fit on the data. Models performance are compared with the best model (LDA) having its decision boundary plotted. The plot shows a strong performance.
+Linear and Quadratic Discriminant Analysis models were fit to the data. The models performance are compared, with the best model (LDA) having its decision boundary plotted. The plot shows a strong classification performance.
 
 **Principal Component Analysis**
 
-Principal Component Analysis is performed on the data, with the first ***3 Principal Components capturing the majority of the cumulative data variance***. The principal component scores are displayed to show the depreciating nature of component variance. 
+Principal Component Analysis is performed on the data, with the first ***3 Principal Components capturing the majority of the cumulative data variance***. The principal component scores are displayed to show the diminishing contribution of component variance. 
 
 **Principal Component Regression**
 
