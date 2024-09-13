@@ -26,7 +26,7 @@ A k-means clustering algorithm was also applied with the 'elbow plot' indicating
 
 **Discriminant Analysis**
 
-Linear and Quadratic Discriminant Analysis models were fit to the data. The models performance are compared, with the best model (LDA) having its decision boundary plotted. The plot shows a strong classification performance.
+Linear and Quadratic Discriminant Analysis models were fit to the data. The models performance are compared, with the best model (LDA) having its decision boundary plotted. The plot shows a **strong classification performance**.
 
 **Principal Component Analysis**
 
