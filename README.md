@@ -13,7 +13,8 @@ Oral Temperature values are positively skewed, while facial temperature values a
 Oral Temperature **outliers are removed to ensure data normality** for later analysis.
 
 **Clustering**
-***Hierarchical CLustering***
+
+***Hierarchical Clustering***
 A number of hierarchical clustering algorithms were run on the facial data with 'average' linking proving to be the most suitable approach. This approach suggests there are 3 distinct clusters in the facial data. 
 ***K-Means Clustering***
 A k-means clustering algorithm is also run on the data. The optimum number of clusters, 4, is found through the use of the 'elbow plot'. A k-means algorithm with k=4 is run on the data that is reduced by Principal Component Analysis. When these clusters were plotted against PC1 and PC2 the clusters were very discriminatory. The k-means clustering algorithm was preferred in this instance to the Hierarchichal approach due to its enhanced cluster separations.
